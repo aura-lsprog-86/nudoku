@@ -7,16 +7,15 @@ msgstr ""
 "Project-Id-Version: nudoku 4.0.1\n"
 "Report-Msgid-Bugs-To: jubalh@iodoru.org\n"
 "POT-Creation-Date: 2026-04-12 11:44-0700\n"
-"PO-Revision-Date: 2024-08-24 10:05+0200\n"
-"Last-Translator: Oleksii Stroganov <merv1n@proton.me>\n"
+"PO-Revision-Date: 2026-05-06 02:55+0300\n"
+"Last-Translator: Denmoth <denmoth8871top@gmail.com>\n"
 "Language-Team: Ukrainian <uk>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Gtranslator 45.3\n"
 
 #: src/main.c:107
@@ -36,12 +35,12 @@ msgstr "Опції:\n"
 #: src/main.c:109
 #, c-format
 msgid "-h help:\t\tPrint this help\n"
-msgstr "-h довідка:\t\tНадрукувати цю довідку\n"
+msgstr "-h довідка:\t\tВивести цю довідку\n"
 
 #: src/main.c:110
 #, c-format
 msgid "-v version:\t\tPrint version\n"
-msgstr "-v версія:\t\tНадрукувати версію\n"
+msgstr "-v версія:\t\tВивести версію\n"
 
 #: src/main.c:111
 #, c-format
@@ -51,7 +50,7 @@ msgstr "-c без кольорів:\t\tНе використовувати ко�
 #: src/main.c:112
 #, c-format
 msgid "-o output:\t\tOutput stream (inverse of -s)\n"
-msgstr ""
+msgstr "-o вивід:\t\tПотік виводу (обернене до -s)\n"
 
 #: src/main.c:113
 #, c-format
@@ -61,7 +60,7 @@ msgstr "-d складність:\t\tОбрати рівень: easy, normal, har
 #: src/main.c:114
 #, c-format
 msgid "-s stream:\t\tUser provided sudoku stream\n"
-msgstr "-s потік:\t\tНаданий користувачем поток судоку\n"
+msgstr "-s потік:\t\tНаданий користувачем потік судоку\n"
 
 #: src/main.c:115
 #, c-format
@@ -71,17 +70,17 @@ msgstr "-r продовжити:\t\tПродовжити останню збер
 #: src/main.c:116
 #, c-format
 msgid "-p filename:\t\tOutput PDF\n"
-msgstr "-p файл:\t\tСтворити PDF документ\n"
+msgstr "-p файл:\t\tСтворити PDF-документ\n"
 
 #: src/main.c:117
 #, c-format
 msgid "-n filename:\t\tNumber of sudokus to put in PDF\n"
-msgstr "-n файл:\t\tКількість судоку у PDF\n"
+msgstr "-n кількість:\t\tКількість судоку у PDF\n"
 
 #: src/main.c:118
 #, c-format
 msgid "-i filename:\t\tOutput PNG image\n"
-msgstr "-i файл:\t\tСтворити PNG світлину\n"
+msgstr "-i файл:\t\tСтворити PNG-зображення\n"
 
 #: src/main.c:119
 #, c-format
@@ -89,34 +88,36 @@ msgid ""
 "-S papername:\t\tPDF paper size (e.g., 'a4', 'letter', 'legal'; default "
 "'a4') or 'WIDTHxHEIGHT[unit]'\n"
 msgstr ""
+"-S формат паперу:\tРозмір паперу для PDF (напр., 'a4', 'letter', 'legal'; типово "
+"'a4') або 'ШИРИНАxВИСОТА[одиниця_виміру]'\n"
 
 #: src/main.c:133
 #, c-format
 msgid "Character %c at position %d is not allowed.\n"
-msgstr "Символ %c в позиції %d не допускається.\n"
+msgstr "Символ %c на позиції %d недопустимий.\n"
 
 #: src/main.c:141
 #, c-format
 msgid "Stream has to be %d characters long.\n"
-msgstr "Поток має бути %d символів у довжину.\n"
+msgstr "Потік має складатися з %d символів.\n"
 
 #: src/main.c:147
 #, c-format
 msgid "Stream does not represent a valid sudoku puzzle.\n"
-msgstr "Поток не є правильним судоку.\n"
+msgstr "Потік не є правильним судоку.\n"
 
 #: src/main.c:318
 #, c-format
 msgid "Game save is missing or corrupted, try starting new game.\n"
-msgstr "Гра не була збережена або пошкоджена, спробуйте нову гру.\n"
+msgstr "Збереження гри відсутнє або пошкоджене, спробуйте почати нову гру.\n"
 
 #: src/main.c:396
 msgid ""
 "Your terminal doesn't support colors.\n"
 "Try the nocolor (-c) option.\n"
 msgstr ""
-"Цей термінал не підтримує кольори\n"
-"Спробуйте опцію без кольору (-c).\n"
+"Цей термінал не підтримує кольори.\n"
+"Спробуйте опцію без кольорів (-c).\n"
 
 #: src/main.c:487
 #, c-format
@@ -141,7 +142,7 @@ msgstr " j - Вниз\n"
 
 #: src/main.c:499
 msgid " k - Move up\n"
-msgstr " k - Вверх\n"
+msgstr " k - Вгору\n"
 
 #: src/main.c:500
 msgid ""
@@ -157,15 +158,15 @@ msgstr "Команди\n"
 
 #: src/main.c:502
 msgid " c - Check solution\n"
-msgstr " c - Перевірити судоку\n"
+msgstr " c - Перевірити розв'язок\n"
 
 #: src/main.c:503
 msgid " H - Give a hint\n"
-msgstr " H - Дати підсказку\n"
+msgstr " H - Надати підказку\n"
 
 #: src/main.c:506
 msgid " m - Toggle marks\n"
-msgstr " m - Переключити позначки\n"
+msgstr " m - Перемикнути позначки\n"
 
 #: src/main.c:508
 msgid " N - New puzzle\n"
@@ -198,13 +199,13 @@ msgstr " u - Скасувати останню дію\n"
 #: src/main.c:678
 #, c-format
 msgid "nudoku is compiled without cairo support.\n"
-msgstr "nudoku cкомпільований без підтримки cairo.\n"
+msgstr "nudoku скомпільовано без підтримки cairo.\n"
 
 #: src/main.c:679
 #, c-format
 msgid "To use the output feature, please compile with --enable-cairo.\n"
 msgstr ""
-"Для функціонування друку судоку використовуйте --enable-cairo при "
+"Для функціонування друку судоку використовуйте --enable-cairo під час "
 "компіляції.\n"
 
 #: src/main.c:799
@@ -224,19 +225,20 @@ msgid "Not correct"
 msgstr "У вас помилка"
 
 #: src/main.c:852
-#, fuzzy, c-format
-#| msgid " with the help of %d hints"
-#| msgid_plural " with the help of %d hints"
+#, c-format
 msgid " with the help of %d hints"
-msgstr " зa допомогою %d підсказки"
+msgid_plural " with the help of %d hints"
+msgstr[0] " за допомогою %d підказки"
+msgstr[1] " за допомогою %d підказок"
+msgstr[2] " за допомогою %d підказок"
 
 #: src/main.c:860
 msgid "Correct so far"
-msgstr "Зараз правильно"
+msgstr "Поки що правильно"
 
 #: src/main.c:890
 msgid "Provided hint"
-msgstr "Ви використали підсказку"
+msgstr "Надано підказку"
 
 #: src/main.c:903
 msgid "Saved!"
@@ -244,7 +246,7 @@ msgstr "Судоку збережено!"
 
 #: src/main.c:906
 msgid "Can't save the game!"
-msgstr "Не можу зберегти гру!"
+msgstr "Не вдалося зберегти гру!"
 
 #: src/sudoku.c:279
 msgid "hard"
@@ -261,9 +263,9 @@ msgstr "легкий"
 #: src/outp.c:172
 #, c-format
 msgid "ERROR: Page dimensions are too small for sudokus to fit!\n"
-msgstr ""
+msgstr "ПОМИЛКА: Розмір сторінки занадто малий, щоб вмістити судоку!\n"
 
 #: src/outp.c:173
 #, c-format
 msgid "Please check the dimensions provided in '-S' and try again.\n"
-msgstr ""
+msgstr "Будь ласка, перевірте розміри, вказані в параметрі '-S', та спробуйте ще раз.\n"
